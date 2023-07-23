@@ -13,6 +13,12 @@ An extremely basic external csgo cheat using Imgui and Winapi
 
 The point of this external is to do a lot of the heavy lifting for you and make it easy to add features, feel free to use as you want, keep note that *I'm not responsible for any kind of ban or penality that you may get, this should be self explanatory*
 
+Offsets may need to be updated since the cheat is external, therefore I have made it pretty easy
+
+- cheat/globals.h
+- look for the namespace "offsets"
+- update using [hazedumpers offsets](https://github.com/frk1/hazedumper/blob/master/csgo.hpp)
+
 ## Credits
 - [hazedumper](https://github.com/frk1/hazedumper) for their offsets
 - cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (the features are from his youtube channel after all)
