@@ -26,4 +26,4 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 
 ## License
 
-[MIT]([https://choosealicense.com/licenses/mit/](https://opensource.org/license/mit/)https://opensource.org/license/mit/)
+[MIT](https://choosealicense.com/licenses/mit/](https://opensource.org/license/mit/)https://opensource.org/license/mit/)
