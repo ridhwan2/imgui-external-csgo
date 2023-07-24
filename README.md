@@ -15,7 +15,7 @@ The point of this external is to do a lot of the heavy lifting for you and make 
 
 Offsets may need to be updated since the cheat is external, therefore I have made it pretty easy
 
-- cheat/globals.h
+- csgo-external/cheat/globals.h
 - look for the namespace "offsets"
 - update using [hazedumpers offsets](https://github.com/frk1/hazedumper/blob/master/csgo.hpp)
 
