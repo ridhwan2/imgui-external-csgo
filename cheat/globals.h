@@ -17,6 +17,7 @@ namespace globals
 namespace offsets
 {
 	// note that not all of these offsets need to be updated, only some, i just didn't feel like cherry picking the required offsets
+	
 	// netvars 
 	constexpr ::std::ptrdiff_t cs_gamerules_data = 0x0;
 	constexpr ::std::ptrdiff_t m_ArmorValue = 0x117CC;
