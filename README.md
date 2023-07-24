@@ -21,7 +21,7 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 
 ## Credits
 - [hazedumper](https://github.com/frk1/hazedumper) for their offsets
-- cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (the features are from his youtube channel after all)
+- cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (the features and base are from his youtube channel after all)
 - [stackedit](https://stackedit.io/) for helping me write this
 
 ## License
