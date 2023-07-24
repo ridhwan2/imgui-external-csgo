@@ -5,7 +5,7 @@ An extremely basic external csgo cheat using Imgui and Winapi
 ## Installation
 
 - Download as zip
-- Open .sln file
+- Open the .sln file
 - *Build or Debug as "Release x86"*
 
 
