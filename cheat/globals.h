@@ -7,10 +7,11 @@ namespace globals
 	inline std::uintptr_t clientAddress = 0;
 
 	inline bool glow = false;
-	inline float glowColor[] = { 0.f, 115 / 255.f, 225 / 255.f, 225 / 255.f };
+	inline float glowColor[] = { 255.f, 0.f, 0.f, 255.f };
 
 	inline bool radar = false;
 	inline bool bhop = false;
+	inline bool rcs = false;
 }
 
 
