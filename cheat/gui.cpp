@@ -5,6 +5,7 @@
 #include "../imgui/imgui_impl_win32.h"
 
 #include "globals.h"
+#include "memory.h"
 
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(
 	HWND window,
@@ -281,6 +282,23 @@ void gui::Render() noexcept
 		ImGui::Text("m_lifeState: 0x%X", offsets::m_lifeState);
 		ImGui::Text("m_iGlowIndex: 0x%X", offsets::m_iGlowIndex);
 		ImGui::Text("m_bSpotted: 0x%X", offsets::m_bSpotted);
+
+		Memory memory("csgo.exe");
+		std::uintptr_t clientBaseAddress = memory.GetModuleAddress("client.dll");
+
+		if (clientBaseAddress) {
+			std::uintptr_t playerBase = memory.Read<std::uintptr_t>(clientBaseAddress + offsets::dwLocalPlayer);
+			if (playerBase) {
+				int health = memory.Read<int>(playerBase + offsets::m_iHealth);
+				ImGui::Spacing();
+				ImGui::Text("csgo hooked, health: %d", health);
+			}
+		}
+		else {
+			ImGui::Spacing();
+			ImGui::Text("unable to get client.dll");
+		}
+
 	}
 	ImGui::EndGroup();
 
