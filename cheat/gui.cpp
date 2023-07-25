@@ -265,6 +265,7 @@ void gui::Render() noexcept
 	ImGui::Text("misc");
 	ImGui::BeginGroup(); 
 	ImGui::Checkbox("bhop", &globals::bhop);
+	ImGui::Checkbox("rcs", &globals::rcs);
 
 	static bool debug = false;
 	ImGui::Checkbox("debug", &debug);
