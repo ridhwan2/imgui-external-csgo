@@ -1,6 +1,6 @@
 # About
 
-An extremely basic external csgo cheat using Imgui and Winapi
+An extremely basic external csgo cheat using Imgui
 
 ## Installation
 
