@@ -6,7 +6,7 @@ An extremely basic external csgo cheat using Imgui
 
 - Download as zip
 - Open the .sln file
-- Go to your project settings and make sure that your C++ language standard is *ISO C++20*, and you are using a *multi byte* character set
+- Go to your project settings and make sure that your C++ language standard is __ISO C++20__, and you are using a __multi byte character set__
 - *Build or Debug as "Release x86"*
 
 
