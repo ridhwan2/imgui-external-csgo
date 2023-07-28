@@ -7,7 +7,7 @@ An extremely basic external csgo cheat using Imgui
 - Download as zip
 - Open the .sln file
 - Go to your project settings and make sure that your C++ language standard is __ISO C++20__, and you are using a __multi byte character set__
-- *Build or Debug as "Release x86"*
+- Build or Debug as "Release x86"
 
 
 ## Info & Contribution
@@ -16,7 +16,7 @@ The point of this external is to do a lot of the heavy lifting for you and make 
 
 Offsets may need to be updated since the cheat is external, therefore I have made it pretty easy
 
-- csgo-external/cheat/globals.h
+- go to csgo-external/cheat/globals.h
 - look for the namespace "offsets"
 - update using [hazedumpers offsets](https://github.com/frk1/hazedumper/blob/master/csgo.hpp)
 
@@ -27,4 +27,4 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 
 ## License
 
-[MIT](https://opensource.org/license/mit/)
+[MIT](https://opensource.org/license/mit/) (2023-)
