@@ -256,6 +256,16 @@ void gui::Render() noexcept
 
 	if (ImGui::BeginTabBar("TabBar"))
 	{
+		if (ImGui::BeginTabItem("aim"))
+		{
+			ImGui::BeginGroup();
+			ImGui::Spacing();
+			ImGui::Checkbox("triggerbot", &globals::triggerbot);
+			ImGui::EndGroup();
+			ImGui::EndTabItem();
+		}
+
+
 		if (ImGui::BeginTabItem("visuals"))
 		{
 			ImGui::BeginGroup();
@@ -296,8 +306,10 @@ void gui::Render() noexcept
 			ImGui::Spacing();
 			ImGui::Text("client.dll -> 0x%X", client);
 			ImGui::Text("engine.dll -> 0x%X", engine);
-			ImGui::Spacing();
-			ImGui::Text("build v.1.2.4");
+			for (int i = 0; i < 16; ++i)
+				ImGui::Spacing();
+
+			ImGui::Text("build v.1.2.8");
 
 			ImGui::EndTabItem();
 		}
