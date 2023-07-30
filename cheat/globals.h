@@ -12,6 +12,7 @@ namespace globals
 	inline bool radar = false;
 	inline bool bhop = false;
 	inline bool rcs = false;
+	inline bool triggerbot = false;
 }
 
 
