@@ -246,7 +246,7 @@ void gui::Render() noexcept
 	ImGui::SetNextWindowPos({ 0, 0 });
 	ImGui::SetNextWindowSize({ WIDTH, HEIGHT });
 	ImGui::Begin(
-		"external test",
+		"imgui",
 		&isRunning,
 		ImGuiWindowFlags_NoResize |
 		ImGuiWindowFlags_NoSavedSettings |
@@ -254,54 +254,58 @@ void gui::Render() noexcept
 		ImGuiWindowFlags_NoMove
 	);
 
-	ImGui::Text("visuals"); 
-	ImGui::BeginGroup(); 
-	ImGui::Checkbox("glow", &globals::glow);
-	ImGui::ColorEdit4("glow color", globals::glowColor);
-	ImGui::Checkbox("radar", &globals::radar);
-	ImGui::EndGroup();
-
-	ImGui::Spacing();
-
-	ImGui::Text("misc");
-	ImGui::BeginGroup(); 
-	ImGui::Checkbox("bhop", &globals::bhop);
-	ImGui::Checkbox("rcs", &globals::rcs);
-
-	static bool debug = false;
-	ImGui::Checkbox("debug", &debug);
-
-	if (debug)
+	if (ImGui::BeginTabBar("TabBar"))
 	{
-		ImGui::Spacing();
-
-		ImGui::Text("dwLocalPlayer: 0x%X", offsets::dwLocalPlayer);
-		ImGui::Text("dwGlowObjectManager: 0x%X", offsets::dwGlowObjectManager);
-		ImGui::Text("dwEntityList: 0x%X", offsets::dwEntityList);
-		ImGui::Text("m_iTeamNum: 0x%X", offsets::m_iTeamNum);
-		ImGui::Text("m_lifeState: 0x%X", offsets::m_lifeState);
-		ImGui::Text("m_iGlowIndex: 0x%X", offsets::m_iGlowIndex);
-		ImGui::Text("m_bSpotted: 0x%X", offsets::m_bSpotted);
-
-		Memory memory("csgo.exe");
-		std::uintptr_t clientBaseAddress = memory.GetModuleAddress("client.dll");
-
-		if (clientBaseAddress) {
-			std::uintptr_t playerBase = memory.Read<std::uintptr_t>(clientBaseAddress + offsets::dwLocalPlayer);
-			if (playerBase) {
-				int health = memory.Read<int>(playerBase + offsets::m_iHealth);
-				ImGui::Spacing();
-				ImGui::Text("csgo hooked, health: %d", health);
-			}
-		}
-		else {
+		if (ImGui::BeginTabItem("visuals"))
+		{
+			ImGui::BeginGroup();
 			ImGui::Spacing();
-			ImGui::Text("unable to get client.dll");
+			ImGui::Checkbox("glow", &globals::glow);
+			ImGui::ColorEdit4("glow color", globals::glowColor);
+			ImGui::Checkbox("radar", &globals::radar);
+			ImGui::EndGroup();
+			ImGui::EndTabItem();
 		}
 
+		if (ImGui::BeginTabItem("misc"))
+		{
+			ImGui::BeginGroup();
+			ImGui::Spacing();
+			ImGui::Checkbox("bhop", &globals::bhop);
+			ImGui::Checkbox("rcs", &globals::rcs);
+			ImGui::EndGroup();
+			ImGui::EndTabItem();
+		}
+
+		if (ImGui::BeginTabItem("debug"))
+		{
+			ImGui::Spacing();
+
+			ImGui::Text("dwLocalPlayer: 0x%X", offsets::dwLocalPlayer);
+			ImGui::Text("dwGlowObjectManager: 0x%X", offsets::dwGlowObjectManager);
+			ImGui::Text("dwEntityList: 0x%X", offsets::dwEntityList);
+			ImGui::Text("m_iTeamNum: 0x%X", offsets::m_iTeamNum);
+			ImGui::Text("m_lifeState: 0x%X", offsets::m_lifeState);
+			ImGui::Text("m_iGlowIndex: 0x%X", offsets::m_iGlowIndex);
+			ImGui::Text("m_bSpotted: 0x%X", offsets::m_bSpotted);
+
+			Memory memory("csgo.exe");
+			std::uintptr_t client = memory.GetModuleAddress("client.dll");
+			std::uintptr_t engine = memory.GetModuleAddress("engine.dll");
+
+			ImGui::Spacing();
+			ImGui::Text("client.dll -> 0x%X", client);
+			ImGui::Text("engine.dll -> 0x%X", engine);
+			ImGui::Spacing();
+			ImGui::Text("build v.1.2.4");
+
+			ImGui::EndTabItem();
+		}
+
+		ImGui::EndTabBar();
 	}
-	ImGui::EndGroup();
 
 	ImGui::End();
 }
+
 
