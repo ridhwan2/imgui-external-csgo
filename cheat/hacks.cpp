@@ -15,7 +15,7 @@ void hacks::VisualsThread(const Memory& mem) noexcept
 
 	while (gui::isRunning)
 	{
-		std::this_thread::sleep_for(std::chrono::milliseconds(0));
+		std::this_thread::sleep_for(std::chrono::milliseconds(1));
 
 		const auto localPlayer = mem.Read<std::uintptr_t>(globals::clientAddress + offsets::dwLocalPlayer);
 
