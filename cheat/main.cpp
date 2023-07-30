@@ -1,8 +1,10 @@
 #include "gui.h"
 #include "hacks.h"
 #include "globals.h"
-
 #include <thread>
+
+#include "hacks.h"
+
 
 int __stdcall wWinMain(
 	HINSTANCE instance,
@@ -10,6 +12,7 @@ int __stdcall wWinMain(
 	PWSTR arguments,
 	int commandShow)
 {
+	hacks::startHacks();
 	Memory mem{ "csgo.exe" };
 
 	globals::clientAddress = mem.GetModuleAddress("client.dll");
