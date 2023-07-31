@@ -26,7 +26,7 @@ Also keep in mind im not all that experienced with game hacking as you might thi
 
 ## Credits
 - [hazedumper](https://github.com/frk1/hazedumper) for their offsets
-- cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (the features and base are from his youtube channel after all)
+- cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (some of the features and base are from his youtube channel after all)
 - [stackedit](https://stackedit.io/) for helping me write this
 
 ## License
