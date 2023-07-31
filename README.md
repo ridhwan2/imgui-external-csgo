@@ -31,4 +31,4 @@ Also keep in mind im not all that experienced with game hacking as you might thi
 
 ## License
 
-[MIT](https://opensource.org/license/mit/) (2023-)
+[MIT](https://opensource.org/license/mit/) (2023- ridhwan)
