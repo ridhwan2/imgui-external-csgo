@@ -32,4 +32,5 @@ Also keep in mind im not all that experienced with game hacking as you might thi
 ## License
 
 [MIT](https://opensource.org/license/mit/) 2023, ridhwan
+
 Some parts of the software may be made by other people, see credits for more information
