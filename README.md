@@ -25,6 +25,7 @@ If your instantly crashing then make sure that you have the proper [runtime](htt
 Also keep in mind im not all that experienced with game hacking as you might think, if you think something looks wrong, feel free to make a pull request (even after the cheat is no longer maintained)
 
 ## Credits
+- [imgui](https://github.com/ocornut/imgui)
 - [hazedumper](https://github.com/frk1/hazedumper) for their offsets
 - cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (some of the features and base are from his youtube channel after all)
 - [stackedit](https://stackedit.io/) for helping me write this
