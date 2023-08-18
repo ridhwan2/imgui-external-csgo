@@ -20,7 +20,7 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 - look for the namespace "offsets"
 - update using [hazedumpers offsets](https://github.com/frk1/hazedumper/blob/master/csgo.hpp)
 
-If your instantly crashing then make sure that you have the proper [runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe) installed
+If your instantly crashing make sure you have [Visual Studio](https://visualstudio.microsoft.com/downloads/) installed
 
 Also keep in mind im not all that experienced with game hacking as you might think, if you think something looks wrong, feel free to make a pull request (even after the cheat is no longer maintained)
 
