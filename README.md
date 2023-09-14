@@ -2,9 +2,6 @@
 
 An extremely basic external csgo cheat using imgui and winapi, alongside basic memory reading and writing practices
 
-## ⚠️
-I'm not responsible for what you decide to do with this software, this is in no way "undetected"
-
 ## Installation
 
 - Download the source code
@@ -32,6 +29,9 @@ Also keep in mind im not all that experienced with game hacking as you might thi
 - [hazedumper](https://github.com/frk1/hazedumper) for their offsets
 - cazz's [memory class](https://github.com/cazzwastaken/pro-bhop/blob/master/cheat/memory.h) & [youtube channel](https://www.youtube.com/@cazz) (some of the features and base are from his youtube channel after all)
 - [stackedit](https://stackedit.io/) for helping me write this
+
+### ⚠️
+Finally, i'm not responsible for what you decide to do with this software, this is in no way "undetected"
 
 ## License
 
