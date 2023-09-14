@@ -12,9 +12,6 @@ An extremely basic external csgo cheat using imgui and winapi, alongside basic m
 
 ## Info & Contribution
 
-⚠️
-I'm not responsible for what you decide to do with this software, this is is not made with the intent to the "undected",
-
 The point of this external is to do a lot of the heavy lifting for you and make it easy to add features, feel free to use as you want!
 
 Offsets may need to be updated since the cheat is external, therefore I have made it pretty easy
@@ -24,6 +21,9 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 - update using [hazedumpers offsets](https://github.com/frk1/hazedumper/blob/master/csgo.hpp)
 
 Also keep in mind im not all that experienced with game hacking as you might think, if you think something looks wrong, feel free to make a pull request (even after the cheat is no longer maintained)
+
+⚠️
+I'm not responsible for what you decide to do with this software, this is is not made with the intent to the "undected"
 
 ## Credits
 - [imgui](https://github.com/ocornut/imgui)
