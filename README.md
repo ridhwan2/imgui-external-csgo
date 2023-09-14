@@ -2,6 +2,9 @@
 
 An extremely basic external csgo cheat using imgui and winapi, alongside basic memory reading and writing practices
 
+## ⚠️
+I'm not responsible for what you decide to do with this software, this is in no way "undetected", you will need to use a VAC bypass
+
 ## Installation
 
 - Download the source code
@@ -12,7 +15,7 @@ An extremely basic external csgo cheat using imgui and winapi, alongside basic m
 
 ## Info & Contribution
 
-The point of this external is to do a lot of the heavy lifting for you and make it easy to add features, feel free to use as you want, also keep note that, *i'm not responsible for any kind of penality that you may get*
+The point of this external is to do a lot of the heavy lifting for you and make it easy to add features, feel free to use as you want!
 
 Offsets may need to be updated since the cheat is external, therefore I have made it pretty easy
 
