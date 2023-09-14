@@ -22,8 +22,7 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 
 Also keep in mind im not all that experienced with game hacking as you might think, if you think something looks wrong, feel free to make a pull request (even after the cheat is no longer maintained)
 
-⚠️
-I'm not responsible for what you decide to do with this software, this is is not made with the intent to the "undected"
+⚠️ This is not made with the intent of being "undected"!
 
 ## Credits
 - [imgui](https://github.com/ocornut/imgui)
