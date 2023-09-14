@@ -12,8 +12,7 @@ An extremely basic external csgo cheat using imgui and winapi, alongside basic m
 
 ## Info & Contribution
 
-### ⚠️
-I'm not responsible for what you decide to do with this software, this is is not made with the intent to the "undected"
+### ⚠️ I'm not responsible for what you decide to do with this software, this is is not made with the intent to the "undected"
 
 The point of this external is to do a lot of the heavy lifting for you and make it easy to add features, feel free to use as you want!
 
