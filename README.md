@@ -3,7 +3,7 @@
 An extremely basic external csgo cheat using imgui and winapi, alongside basic memory reading and writing practices
 
 ## ⚠️
-I'm not responsible for what you decide to do with this software, this is in no way "undetected", you will need to use a VAC bypass
+I'm not responsible for what you decide to do with this software, this is in no way "undetected"
 
 ## Installation
 
