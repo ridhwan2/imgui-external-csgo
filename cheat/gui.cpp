@@ -291,25 +291,21 @@ void gui::Render() noexcept
 		{
 			ImGui::Spacing();
 
-			ImGui::Text("dwLocalPlayer: 0x%X", offsets::dwLocalPlayer);
-			ImGui::Text("dwGlowObjectManager: 0x%X", offsets::dwGlowObjectManager);
-			ImGui::Text("dwEntityList: 0x%X", offsets::dwEntityList);
-			ImGui::Text("m_iTeamNum: 0x%X", offsets::m_iTeamNum);
-			ImGui::Text("m_lifeState: 0x%X", offsets::m_lifeState);
-			ImGui::Text("m_iGlowIndex: 0x%X", offsets::m_iGlowIndex);
-			ImGui::Text("m_bSpotted: 0x%X", offsets::m_bSpotted);
-
 			Memory memory("csgo.exe");
 			std::uintptr_t client = memory.GetModuleAddress("client.dll");
 			std::uintptr_t engine = memory.GetModuleAddress("engine.dll");
 
 			ImGui::Spacing();
-			ImGui::Text("client.dll -> 0x%X", client);
-			ImGui::Text("engine.dll -> 0x%X", engine);
-			for (int i = 0; i < 16; ++i)
-				ImGui::Spacing();
 
-			ImGui::Text("build v.1.2.8");
+			if (client == 0x0 || engine == 0x0)
+			{
+				ImGui::Text("can't retreive module address for client.dll or engine.dll");
+			}
+			else
+			{
+				ImGui::Text("client -> 0x%X", client);
+				ImGui::Text("engine -> 0x%X", engine);
+			}
 
 			ImGui::EndTabItem();
 		}
