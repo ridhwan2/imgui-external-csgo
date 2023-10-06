@@ -6,7 +6,7 @@ Due to the global release of  [CS2](https://www.counter-strike.net/cs2), CS:GO h
 
 So because of this, until widespread knowledge regarding CS2 and its vulnerabilities, this source no longer works, the repo will still be up and [compiled versions](https://github.com/ridhwan2/imgui-external-csgo/releases) are available likewise.
 
-Thanks to anyone who learned something or perhaps just wanted to use the cheat!
+Thanks to anyone who learned something or perhaps just wanted to use the cheat, again big thanks to cazz for allowing me to code something like this :)
 
 ## Credits
 - [cazz](https://www.youtube.com/@cazz)
