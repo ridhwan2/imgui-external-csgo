@@ -12,5 +12,4 @@ For those curious, this is because the [GetModuleAddress](https://github.com/rid
 
 > [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
 > 
-> Some parts of the software may be made by other people, see credits
-> for more information
+> Some parts of the software may be made by other people
