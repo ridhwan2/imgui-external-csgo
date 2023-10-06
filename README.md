@@ -1,6 +1,10 @@
 # About
 
-An extremely basic external csgo cheat using imgui and winapi, alongside basic memory reading and writing practices
+~~An extremely basic external csgo cheat using imgui and winapi, alongside basic memory reading and writing practices~~
+
+Due to the global release of  CS2, CS:GO has been shut down.
+
+So because of this, until widespread knowledge regarding CS2 and its subsequent  vulnerabilities, buy a P2C ;(
 
 ## Installation
 
@@ -20,9 +24,6 @@ Offsets may need to be updated since the cheat is external, therefore I have mad
 - look for the namespace "offsets"
 - update using [hazedumpers offsets](https://github.com/frk1/hazedumper/blob/master/csgo.hpp)
 
-Also keep in mind im not all that experienced with game hacking as you might think, if you think something looks wrong, feel free to make a pull request (even after the cheat is no longer maintained)
-
-⚠️ This is not made with the intent of being "undected"!
 
 ## Credits
 - [imgui](https://github.com/ocornut/imgui)
@@ -32,6 +33,7 @@ Also keep in mind im not all that experienced with game hacking as you might thi
 
 ## License
 
-[MIT](https://opensource.org/license/mit/) 2023, ridhwan
-
-Some parts of the software may be made by other people, see credits for more information
+> [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
+> 
+> Some parts of the software may be made by other people, see credits
+> for more information
