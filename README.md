@@ -6,7 +6,7 @@ Due to the global release of  [CS2](https://www.counter-strike.net/cs2), CS:GO h
 
 So because of this, until widespread knowledge regarding CS2 and its vulnerabilities, this source no longer works, the source will still be up and [compiled versions](https://github.com/ridhwan2/imgui-external-csgo/releases) are still available likewise.
 
-For those curious, this is because the [GetModuleAddress](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L48), [ReadMemory](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L74), [WriteMemory](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L83) functions no longer work in the memory class, until cazz or someone else updates it to work there's really not much I can do.
+For those curious, this is because the [GetModuleAddress](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L48), [ReadMemory](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L74), [WriteMemory](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L83) functions no longer work in the memory class. Until cazz or someone else updates it to work there's really not much I can do.
 
 ## License
 
