@@ -8,6 +8,11 @@ So because of this, until widespread knowledge regarding CS2 and its vulnerabili
 
 For those curious, this is because the [GetModuleAddress](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L48) and subsequently, [ReadMemory](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L74), and [WriteMemory](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L83) functions no longer work in the memory class. Until cazz or someone else updates it there's really not much I can do.
 
+## Credits
+- [cazz](https://www.youtube.com/@cazz)
+- [imgui](https://github.com/ocornut/imgui)
+- [hazedumper](https://github.com/frk1/hazedumper)
+
 ## License
 
 > [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
