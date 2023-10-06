@@ -2,11 +2,9 @@
 
 ~~An extremely basic external csgo cheat using imgui and winapi, alongside basic memory reading and writing practices~~
 
-Due to the global release of  CS2, CS:GO has been shut down.
+Due to the global release of  [CS2](https://www.counter-strike.net/cs2), CS:GO has been shut down.
 
-So because of this, until widespread knowledge regarding CS2 and its subsequent vulnerabilities, buy a P2C ;( 
-
-This is primarily the result of the GetModuleAddress function no longer working, and subsequently ReadMemory and WriteMemory functions present in the [memory class](https://github.com/ridhwan2/imgui-external-csgo/blob/main/cheat/memory.h#L48), however the moment cazz updates his memory class or public methods are out ill be sure to update this.
+So because of this, *until widespread knowledge regarding CS2 and its vulnerabilites, buy a P2C ;(*
 
 ## Installation
 
