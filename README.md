@@ -17,4 +17,4 @@ Thanks to anyone who learned something or perhaps just wanted to use the cheat, 
 
 > [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
 > 
-> Some parts of the software may be made by other people
+> Some parts of the software may be made by other people (see credits)
